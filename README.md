@@ -17,43 +17,43 @@ An applicant is assessed based on five conditions:
   4. Credit rating should not be POOR
   5. Residency status shouldn't be UNDOCUMENTED
   
-Scenario: Any candidate who satisfies all these conditions is eligible for the program 
+**Scenario:** Any candidate who satisfies all these conditions is eligible for the program 
 Output: Success 
 Status: Program Eligible
 
 
 Any candidate who doesn't satisfy atleast one of these conditions is not eligible for the program
-Scenario-1: Poor, but valid credit score 
+**Scenario-1:** Poor, but valid credit score 
 Output: 
 Status: Program ineligible 
 Reason: Poor Credit Score
 Message: Credit Score is less than 600
 
-Scenario-2: Annual income valid but lower than 10,000
+**Scenario-2:** Annual income valid but lower than 10,000
 Output: 
 Status: Program ineligible 
 Reason: Low income
 Message: Income less than 10,000
 
-Scenario-3: High Debt-to-Income ratio
+**Scenario-3:** High Debt-to-Income ratio
 Output: 
 Status: Program ineligible 
 Reason: High Debt
 Message: Debt-to-Income Ratio greater than 80
 
-Scenrio-4: Credit rating is BAD
+**Scenario-4:** Credit rating is BAD
 Output: 
 Status: Program ineligible 
 Reason: Bad Credit Rating
 Message: Credit Rating classified as BAD
 
-Scenario-5: Ineligible residency status
+**Scenario-5:** Ineligible residency status
 Output:
 Status: Program ineligible 
 Reason: Ineligible Residency
 Message: Undocumented residency status
 
-Scenario-6: All or some of the eligibility criteria are not fulfilled
+**Scenario-6:** All or some of the eligibility criteria are not fulfilled
 Output: multiple reasons modeled. For example:
 Status: Program ineligible 
 Reason: Ineligible Residency
@@ -65,7 +65,7 @@ Message: Credit Score is less than 600
 
 
 
-Test cases: 
+**Test cases:** 
 Total 10 test cases --> All passed (screenshot attached)
 
 
