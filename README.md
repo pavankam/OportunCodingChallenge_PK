@@ -25,6 +25,7 @@ Status: Program Eligible
 
 
 
+
 Any candidate who doesn't satisfy atleast one of these conditions is not eligible for the program
 
 
@@ -39,6 +40,7 @@ Reason: Poor Credit Score
 Message: Credit Score is less than 600
 
 
+
 **Failure Scenario-2:** Annual income valid but lower than 10,000
 
 Output: 
@@ -48,6 +50,7 @@ Status: Program ineligible
 Reason: Low income
 
 Message: Income less than 10,000
+
 
 
 **Failure Scenario-3:** High Debt-to-Income ratio
@@ -61,6 +64,7 @@ Reason: High Debt
 Message: Debt-to-Income Ratio greater than 80
 
 
+
 **Failure Scenario-4:** Credit rating is BAD
 
 Output: 
@@ -72,6 +76,7 @@ Reason: Bad Credit Rating
 Message: Credit Rating classified as BAD
 
 
+
 **Failure Scenario-5:** Ineligible residency status
 
 Output:
@@ -81,6 +86,7 @@ Status: Program ineligible
 Reason: Ineligible Residency
 
 Message: Undocumented residency status
+
 
 
 **Failure Scenario-6:** All or some of the eligibility criteria are not fulfilled
@@ -100,6 +106,7 @@ Message: Debt-to-Income Ratio greater than 80
 Reason: Poor Credit Score
 
 Message: Credit Score is less than 600
+
 
 
 
